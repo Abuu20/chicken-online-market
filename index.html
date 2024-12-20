@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Marketing Management System</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Chicken Online</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#inventory">Inventory</a></li>
+                <li><a href="#sales">Sales</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <h1>Welcome to Chicken Online Market</h1>
+            <p>Your one-stop shop for chicken products: chicks, eggs, and manure.</p>
+            <a href="#products" class="cta-btn">Shop Now</a>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products-section">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/cock.jpg" alt="Live Cocks">
+                    <h3>Live Cocks</h3>
+                    <p>High-quality live cocks for breeding and farming.</p>
+                    <a href="purchase.html?product=Live%20Cocks" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="images/hen.jpg" alt="Hens">
+                    <h3>Hens</h3>
+                    <p>Healthy hens for egg production and farming.</p>
+                    <a href="purchase.html?product=Hens" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="images/chicks.jpg" alt="Chicks">
+                    <h3>Chicks</h3>
+                    <p>Day-old chicks, ready for farming.</p>
+                    <a href="purchase.html?product=Chicks" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="images/eggs.webp" alt="Eggs">
+                    <h3>Eggs</h3>
+                    <p>Fresh farm eggs for consumption and sale.</p>
+                    <a href="purchase.html?product=Eggs" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="images/manure.jpg" alt="Manure">
+                    <h3>Manure</h3>
+                    <p>Organic manure for your farming needs.</p>
+                    <a href="purchase.html?product=Manure" class="buy-btn">Buy Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inventory Section -->
+        <section id="inventory" class="inventory-section">
+            <h2>Inventory Management</h2>
+            <p>Manage your stock of live chickens, eggs, and other products.</p>
+            <table class="inventory-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Stock Quantity</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Live Cocks</td>
+                        <td>50</td>
+                        <td>Livestock</td>
+                    </tr>
+                    <tr>
+                        <td>Hens</td>
+                        <td>80</td>
+                        <td>Livestock</td>
+                    </tr>
+                    <tr>
+                        <td>Chicks</td>
+                        <td>150</td>
+                        <td>Livestock</td>
+                    </tr>
+                    <tr>
+                        <td>Eggs</td>
+                        <td>2000</td>
+                        <td>Produce</td>
+                    </tr>
+                    <tr>
+                        <td>Manure</td>
+                        <td>500 bags</td>
+                        <td>Fertilizer</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sales Section -->
+        <section id="sales" class="sales-section">
+            <h2>Sales Reports</h2>
+            <p>View sales data from all cashiers or individual reports.</p>
+            <button class="view-reports-btn">View Reports</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Chicken Online Market. All rights reserved.</p>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
